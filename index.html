@@ -1,0 +1,155 @@
+<!-- Features Company Careers About Login Register Make remote work Get your team
+in sync, no matter your location. Streamline processes, create team rituals,
+and watch productivity soar. Learn more
+
+<div class="attribution">
+  Challenge by
+  <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+    >Frontend Mentor</a
+  >. Coded by <a href="#">Your Name Here</a>.
+</div> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-logo">
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+      <div class="nav-content-desktop">
+        <ul class="nav-links-desktop">
+          <li class="dropdown">
+            <a href="#">
+              <span>Features</span>
+              <img src="./images/icon-arrow-down.svg" alt="icon" />
+            </a>
+            <ul class="dropdown-content">
+              <li>
+                <a href="#">
+                  <span><img src="./images/icon-todo.svg" alt="icon" /></span>
+                  <span>Todo List</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <span
+                    ><img src="./images/icon-calendar.svg" alt="icon"
+                  /></span>
+                  <span>Calender</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span
+                    ><img src="./images/icon-reminders.svg" alt="icon"
+                  /></span>
+                  <span>Reminders</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span
+                    ><img src="./images/icon-planning.svg" alt="icon"
+                  /></span>
+                  <span>Planning</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">
+              <span>Company</span>
+              <img src="./images/icon-arrow-down.svg" alt="icon" />
+            </a>
+            <ul class="dropdown-content">
+              <li>
+                <a href="#">
+                  <span>History</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <span>Our Team</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Blog</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-links-desktop-features"><a href="#">Careers</a></li>
+          <li class="nav-links-desktop-features"><a href="#">About</a></li>
+        </ul>
+
+        <!-- box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3); -->
+      </div>
+      <div class="nav-actions-desktop">
+        <div class="nav-actions-desktop-buttons">
+          <a href="#" class="btn btn-white">Login</a>
+          <a href="#" class="btn btn-border">Register</a>
+        </div>
+      </div>
+      <img
+        src="./images/icon-menu.svg"
+        alt="hamburger"
+        class="mobile-menu-icon"
+      />
+    </nav>
+    <header class="hero-section">
+      <div class="hero-section-content">
+        <div class="hero-section-text">
+          <h1 class="hero-heading-mobile">Make remote world</h1>
+          <h1 class="hero-heading-desktop">Make <br />remote world</h1>
+
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar
+          </p>
+          <a href="#" class="btn btn-black">Learn More</a>
+        </div>
+        <div class="hero-section-logo">
+          <img src="./images/client-databiz.svg" alt="client-databiz" />
+          <img src="./images/client-audiophile.svg" alt="client-audiophile" />
+          <img src="./images/client-maker.svg" alt="client-maker" />
+          <img src="./images/client-meet.svg" alt="client-meet" />
+        </div>
+      </div>
+      <div class="hero-section-image">
+        <img
+          src="./images/image-hero-mobile.png"
+          alt="header-image"
+          class="hero-section-image-mobile"
+        />
+        <img
+          src="./images/image-hero-desktop.png"
+          alt="header-image"
+          class="hero-section-image-desktop"
+        />
+      </div>
+    </header>
+  </body>
+</html>
