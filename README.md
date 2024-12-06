@@ -19,8 +19,8 @@ You can view the project live here:
 
 Below are some images showcasing the design and functionality of the project.
 
-![alt text](image.png)
+<img src="./image.png" alt="alt text" width="600" height="400">
 
-![alt text](Mobile-Output-1.jpg)
+<img src="./Mobile-Output-1.jpg" alt="alt text" width="300" height="500">
 
-![alt text](Mobile-Output-2-1.jpg)
+<img src="./Mobile-Output-2.jpg" alt="alt text" width="300" height="500">
