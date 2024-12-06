@@ -21,6 +21,8 @@
     <title>Frontend Mentor | Intro section with dropdown navigation</title>
   </head>
   <body>
+    <div class="overlay overlay-hide" id="website-overlay"></div>
+
     <nav class="nav">
       <div class="nav-logo">
         <img src="./images/logo.svg" alt="logo" />
@@ -102,11 +104,108 @@
           <a href="#" class="btn btn-border">Register</a>
         </div>
       </div>
-      <img
-        src="./images/icon-menu.svg"
-        alt="hamburger"
-        class="mobile-menu-icon"
-      />
+
+      <button class="mobile-menu-icon" id="mobile-menu-hamburger">
+        <img src="./images/icon-menu.svg" alt="hamburger" />
+      </button>
+
+      <div class="mobile-menu hide-menu" id="mobile-menu-container">
+        <div class="mobile-menu-content-close" id="mobile-menu-close">
+          <img src="./images/icon-close-menu.svg" alt="close-menu" />
+        </div>
+        <div class="mobile-menu-content">
+          <ul>
+            <li class="mobile-menu-content-dropdown">
+              <span id="mobile-menu-features"
+                >Features &nbsp;
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="down icon"
+                  class="arrow-icon"
+                  id="features-arrow-icon"
+              /></span>
+              <ul
+                class="mobile-menu-content-dropdown-menu"
+                id="features-content"
+              >
+                <li>
+                  <a href="#">
+                    <span><img src="./images/icon-todo.svg" alt="icon" /></span>
+                    <span>Todo List</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <span
+                      ><img src="./images/icon-calendar.svg" alt="icon"
+                    /></span>
+                    <span>Calender</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span
+                      ><img src="./images/icon-reminders.svg" alt="icon"
+                    /></span>
+                    <span>Reminders</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span
+                      ><img src="./images/icon-planning.svg" alt="icon"
+                    /></span>
+                    <span>Planning</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="mobile-menu-content-dropdown">
+              <span id="mobile-menu-company"
+                >Company &nbsp;
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="down icon"
+                  class="arrow-icon"
+                  id="company-arrow-icon"
+              /></span>
+              <ul
+                class="mobile-menu-content-dropdown-menu"
+                id="company-content"
+              >
+                <li>
+                  <a href="#">
+                    <span>History</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <span>Our Team</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Blog</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+          </ul>
+
+          <div class="nav-actions-mobile-buttons">
+            <a href="#" class="btn btn-white">Login</a>
+            <a href="#" class="btn btn-border">Register</a>
+          </div>
+        </div>
+      </div>
     </nav>
     <header class="hero-section">
       <div class="hero-section-content">
@@ -140,6 +239,7 @@
         />
       </div>
     </header>
+    <script src="./script.js"></script>
   </body>
 </html>
 
